@@ -1,4 +1,4 @@
-# ViaLite (static multi-page site)
+# Travelista (static multi-page site)
 
 ## Pages
 
