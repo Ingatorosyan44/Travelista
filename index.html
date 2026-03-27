@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ViaLite — Clean Scroll Website</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>ViaLite</span>
+        </a>
+
+        <nav class="nav" data-site-nav aria-label="Primary">
+          <button class="button menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="nav-links">
+            <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+            <span>Menu</span>
+          </button>
+
+          <div class="nav-links" id="nav-links" data-nav-links>
+            <a href="index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/services.html">Services</a>
+            <a href="pages/gallery.html">Gallery</a>
+          </div>
+
+          <div class="nav-cta">
+            <a class="button primary" href="pages/about.html#contact">Get in touch</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main" id="content">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-card">
+            <div class="kicker">Lightweight informational site</div>
+            <h1 class="h1">A clean, modern layout built with only HTML, CSS & JS.</h1>
+            <p class="lead">
+              Each page is designed as a scrollable story: spacious sections, elegant type, and calming imagery.
+              Use this as a foundation for an informational brand site.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#sections">Explore sections</a>
+              <a class="button" href="pages/gallery.html">View gallery</a>
+            </div>
+            <div class="tag-row" aria-label="Highlights">
+              <span class="tag">Responsive</span>
+              <span class="tag">Smooth scrolling</span>
+              <span class="tag">Reusable styles</span>
+              <span class="tag">Multi-page</span>
+            </div>
+          </div>
+
+          <aside class="hero-aside" aria-label="Featured image">
+            <img
+              src="https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=1200&q=70"
+              alt="Minimal, modern interior with soft light"
+              loading="lazy"
+            />
+            <div class="aside-meta">Scroll-friendly sections with comfortable spacing.</div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="sections">
+        <div class="container">
+          <div class="section-grid">
+            <div>
+              <h2 class="section-title">Designed for reading</h2>
+              <p class="section-text">
+                The site uses a consistent rhythm: content blocks separated by whitespace, subtle borders, and restrained color.
+                This keeps pages easy to scan and pleasant to scroll.
+              </p>
+            </div>
+            <div class="card">
+              <div class="split">
+                <div>
+                  <div class="kicker">Structure</div>
+                  <p class="section-text">
+                    Sticky header navigation, a hero intro, then a series of content sections—similar in spirit to modern
+                    brochure sites.
+                  </p>
+                </div>
+                <div>
+                  <div class="kicker">Behavior</div>
+                  <p class="section-text">
+                    Smooth scrolling is enabled and the mobile menu collapses cleanly for small screens.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-grid">
+            <div>
+              <h2 class="section-title">Simple content blocks</h2>
+              <p class="section-text">
+                Mix text and imagery to build an easy narrative. Swap images with your own assets when ready.
+              </p>
+            </div>
+            <div class="card">
+              <div class="media">
+                <img
+                  src="https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=1200&q=70"
+                  alt="Soft light and modern textures"
+                  loading="lazy"
+                />
+              </div>
+              <div style="height: 14px"></div>
+              <p class="section-text">
+                Consistent card styling makes it easy to add new sections and keep everything cohesive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-grid">
+            <div>
+              <h2 class="section-title">Multiple pages</h2>
+              <p class="section-text">
+                Navigate to inner pages to see the same reusable layout applied to different content.
+              </p>
+            </div>
+            <div class="card">
+              <div class="split">
+                <a class="button" href="pages/about.html">About page</a>
+                <a class="button" href="pages/services.html">Services page</a>
+                <a class="button" href="pages/gallery.html">Gallery page</a>
+                <a class="button primary" href="pages/about.html#contact">Contact section</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>ViaLite</span>
+          </div>
+          <small>Built with HTML, CSS, and JavaScript. Lightweight, fast, and easy to extend.</small>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="index.html">Home</a>
+          <a href="pages/about.html">About</a>
+          <a href="pages/services.html">Services</a>
+          <a href="pages/gallery.html">Gallery</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
