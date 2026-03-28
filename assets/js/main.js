@@ -54,4 +54,25 @@
       }, 50);
     }
   }
+
+  document.addEventListener('click', (e) => {
+    const target = e.target;
+    if (!(target instanceof Element)) return;
+    const button = target.closest('[data-navigate]');
+    if (!button) return;
+    
+    e.preventDefault();
+    const destination = button.getAttribute('data-navigate');
+    if (!destination) return;
+    
+    if (destination.startsWith('#')) {
+      const el = document.querySelector(destination);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        history.pushState(null, '', destination);
+      }
+    } else {
+      window.location.href = destination;
+    }
+  });
 })();
